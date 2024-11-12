@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.header {
+    background-color: #a0a0a0;
+    color: #6a7c8d;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header h1 {
+    font-size: 6em;
+}
+
+.header p {
+    font-size: 1.5em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.box {
+    background-color: #dacdcdd7;
+    padding: 20px;
+    width: 60%;
+    margin: 10px;
+    text-align: justify;
+}
+
+.box h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.box p::selection{
+background-color: #bfa1e7;
+color: #000000;
+}
+
+.footer {
+    background-color: rgb(192, 189, 189);
+    color: #0a0a0a;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.parallax1 {
+    background-image: url(https://cdn.pixabay.com/photo/2023/06/14/23/12/sunset-8064078_1280.jpg);
+}
+
+.parallax2 {
+    background-image: url(https://media.istockphoto.com/id/157558590/pt/foto/o-local-de-constru%C3%A7%C3%A3o-ao-p%C3%B4r-do-sol.jpg?s=1024x1024&w=is&k=20&c=TuUx10k1GkHSYVV0LSNikBvgiqmS2MVNzfxULS18UcM=);
+}
+.parallax3 {
+    background-image: url(https://cdn.pixabay.com/photo/2022/04/03/14/22/city-7109073_1280.jpg);
+}
+
+.parallax{
+    height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
